@@ -1,0 +1,61 @@
+{
+    margin: 0;
+    padding: 0;
+    personalidad-sizing: border-personalidad;
+}
+body {
+    background: url(https://i.pinimg.com/originals/f2/25/f0/f225f0da5b621b872f6513d59f89a9b6.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+.personalidad {
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.personalidad-img {
+    border-radius: 50%;
+}
+.personalidad h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+.personalidad h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.personalidad p {
+    text-align: justify;
+}
+.personalidad ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.personalidad ul li {
+    display: inline-block;
+}
+.personalidad ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5 ease-in-out;
+    display: block;
+}
+.personalidad ul li a:hover {
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+.contactos{ 
+    text-align: center;
+    color: rgb(133, 248, 2);
+    font-family: cursive;
+}
